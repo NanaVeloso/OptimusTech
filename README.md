@@ -1,2 +1,14 @@
 # OptimusTech
-#7DaysOfCode - HTML e CSS: Desafio da Alura para iniciantes desenvolver uma página de vagas de empredo de uma empresa de TI utilizando HTML e CSS de 
+
+Olá! Bem vindo ao meu projeto de uma página de vagas de empredo de uma empresa de TI utilizando HTML e CSS.
+#7DaysOfCode - HTML e CSS
+
+## Ferramenas utilizadas:
+
+* HTML
+*  css
+* Flex-box
+
+## Feito por:
+
+### Nanachara Veloso
