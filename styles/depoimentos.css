@@ -1,0 +1,44 @@
+.depoimentos{
+    padding: 0 5.0em 4.0em 5.0em;
+    width: 70%;
+    margin: 0 6.0em 6.0em 8.0em;
+    text-align: center;
+    background: var(--cor-degrade);
+    border-radius: 16px;
+}
+
+.depoimentos__titulo{
+    color: var(--cor-destaque);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4.0em 0 0 0;
+}
+
+.depoimentos__texto{
+    color: var(--cor-preta);
+    font-size: 36px;
+    padding: 0.5em 0 1.0em 0;
+}
+
+.depoimentos__autora{
+    padding: 0.5em 0;
+}
+
+.depoimentos__autora-cargo{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-principal);
+}
+
+@media (max-width: 1024px){
+    .depoimentos{
+        width: 90vw;
+        padding: 0 0 4.0em 0;
+        margin: auto;
+        margin-bottom: 6.0em;
+    }
+
+    .depoimentos__texto{
+        font-size: 28px;
+    }
+}

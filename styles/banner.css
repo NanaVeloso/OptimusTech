@@ -1,0 +1,35 @@
+.banner{
+    padding: 6.0em 17.0em;
+    text-align: center;
+}
+
+.banner__titulo{
+    color: var(--cor-destaque);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.banner__titulo-destaque{   
+    color: var(--cor-preta);
+    font-size: 48px;
+    font-weight: 600;
+    padding: 0.5em 0;
+}
+
+.banner__texto{
+    color: var(--cor-principal); 
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+    .banner{
+        width: 80vw;
+        margin: auto;
+        padding: 6.0em 0;
+    }
+    
+    .banner__titulo-destaque{
+        font-size: 38px;
+    }
+}
